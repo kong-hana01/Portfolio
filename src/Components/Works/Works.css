@@ -4,3 +4,67 @@
     height: 90vh;
     margin-top: 4rem;
 }
+
+.work-right{
+    position:relative;
+}
+
+.work-mainCircle{
+    left: 9rem;
+    position: relative;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 100%;
+    box-shadow: var(--smboxShadow);
+    top: 2rem;
+    background: white;
+}
+
+.work-mainCircle>*{
+    position:absolute;
+}
+
+.work-mainCircle>:nth-child(1){
+    top: -3rem;
+    left: 6rem;
+}
+
+.work-mainCircle>:nth-child(2){
+    top: 5rem;
+    left: -3rem;
+}
+
+.work-mainCircle>:nth-child(3){
+    top: 5rem;
+    left: 6rem;
+}
+
+.work-mainCircle>:nth-child(4){
+    top: 5rem;
+    left: 15rem;
+}
+
+.work-mainCircle>:nth-child(5){
+    top: 13rem;
+    left: 6rem;
+}
+
+.work-backCircle{
+    position:absolute;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 100%;
+    z-index: -1;
+}
+
+.blueCircle{
+    background: #1848B8;
+    left: 18rem;
+    top: 0rem;
+}
+
+.yellowCircle{
+    background: #F5C32C;
+    left: 18rem;
+    top: 8rem;
+}

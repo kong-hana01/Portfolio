@@ -1,10 +1,11 @@
 import React from 'react'
 import './Works.css'
 import Upwork from "../../img/Upwork.png"
-import Fiverr from "../../img/Fiverr.png"
-import Amazon from "../../img/Amazon.png"
+import Fiverr from "../../img/fiverr.png"
+import Amazon from "../../img/amazon.png"
 import Shopify from "../../img/Shopify.png"
 import Facebook from "../../img/Facebook.png"
+import SecCircle from '../SecCircle/SecCircle'
 
 const Works = () => {
   return (
@@ -26,8 +27,17 @@ const Works = () => {
         </div>
     
         {/* right side */}
-        <div className='right-side'>
-            
+        <div className='work-right'>
+            <div className='work-mainCircle'>
+                <SecCircle secCircle = {Upwork}/>
+                <SecCircle secCircle = {Fiverr}/>
+                <SecCircle secCircle = {Amazon}/>
+                <SecCircle secCircle = {Shopify}/>
+                <SecCircle secCircle = {Facebook}/>
+            </div>
+        {/* background Circles */}
+        <div className='work-backCircle blueCircle'></div>
+        <div className='work-backCircle yellowCircle'></div>
         </div>
     </div>
   )
