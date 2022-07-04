@@ -1,0 +1,17 @@
+.work-secCircle{
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    border: 5px solid #ebebeb;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: "none";
+    box-shadow: var(--smboxShadow);
+    background: white;
+}
+
+.work-secCircle > img{
+    transform: scale(0.6);
+}
